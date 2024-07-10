@@ -1504,6 +1504,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .skills-item:not(:last-child) { margin-bottom: 25px; }
 
+.resume-bullets li{
+  margin-bottom: 8px;
+}
 
 
   /**
