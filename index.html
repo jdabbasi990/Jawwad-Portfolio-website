@@ -664,196 +664,241 @@
 
 
 
-     <!--
-  - #PORTFOLIO
--->
-<article class="portfolio" data-page="portfolio">
+      <!--
+        - #PORTFOLIO
+      -->
 
-  <header>
-    <h2 class="h2 article-title">Portfolio</h2>
-  </header>
+      <article class="portfolio" data-page="portfolio">
 
-  <section class="projects">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
 
-    <!-- Filter Buttons -->
-    <ul class="filter-list">
-      <li class="filter-item">
-        <button class="active" data-filter-btn>All</button>
-      </li>
-      <li class="filter-item">
-        <button data-filter-btn>Web design</button>
-      </li>
-      <li class="filter-item">
-        <button data-filter-btn>Applications</button>
-      </li>
-      <li class="filter-item">
-        <button data-filter-btn>Web development</button>
-      </li>
-      <li class="filter-item">
-        <button data-filter-btn>Ai Task IWU</button>
-      </li>
-    </ul>
+        <section class="projects">
 
-    <!-- Filter Dropdown for Mobile/Small Screens -->
-    <div class="filter-select-box">
-      <button class="filter-select" data-select>
-        <div class="select-value" data-select-value>Select category</div>
-        <div class="select-icon">
-          <ion-icon name="chevron-down"></ion-icon>
-        </div>
-      </button>
+          <ul class="filter-list">
 
-      <ul class="select-list">
-        <li class="select-item"><button data-select-item>All</button></li>
-        <li class="select-item"><button data-select-item>Web design</button></li>
-        <li class="select-item"><button data-select-item>Applications</button></li>
-        <li class="select-item"><button data-select-item>Web development</button></li>
-        <li class="select-item"><button data-select-item>Ai Task IWU</button></li>
-      </ul>
-    </div>
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
 
-    <!-- Project List -->
-    <ul class="project-list">
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
 
-      <!-- AI Lab Project -->
-      <li class="project-item active" data-filter-item data-category="Ai Task IWU">
-        <a href="#">
-          <figure class="project-img">
-            <div class="project-item-icon-box">
-              <ion-icon name="eye-outline"></ion-icon>
-            </div>
-            <img src="./assets/images/ai-lab.png" alt="AI Lab Project" loading="lazy">
-          </figure>
-          <h3 class="project-title">1.4 Assignment AI Lab Chatbot</h3>
-          <p class="project-category">Ai Task IWU</p>
-        </a>
-      </li>
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
 
-      <!-- Web Development Projects -->
-      <li class="project-item active" data-filter-item data-category="web development">
-        <a href="#">
-          <figure class="project-img">
-            <div class="project-item-icon-box">
-              <ion-icon name="eye-outline"></ion-icon>
-            </div>
-            <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-          </figure>
-          <h3 class="project-title">Updating Soon</h3>
-          <p class="project-category">Web development</p>
-        </a>
-      </li>
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
 
-      <li class="project-item active" data-filter-item data-category="web development">
-        <a href="#">
-          <figure class="project-img">
-            <div class="project-item-icon-box">
-              <ion-icon name="eye-outline"></ion-icon>
-            </div>
-            <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-          </figure>
-          <h3 class="project-title">Updating Soon</h3>
-          <p class="project-category">Web development</p>
-        </a>
-      </li>
+          </ul>
 
-      <li class="project-item active" data-filter-item data-category="web development">
-        <a href="#">
-          <figure class="project-img">
-            <div class="project-item-icon-box">
-              <ion-icon name="eye-outline"></ion-icon>
-            </div>
-            <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-          </figure>
-          <h3 class="project-title">Updating Soon</h3>
-          <p class="project-category">Web development</p>
-        </a>
-      </li>
+          <div class="filter-select-box">
 
-      <li class="project-item active" data-filter-item data-category="web development">
-        <a href="#">
-          <figure class="project-img">
-            <div class="project-item-icon-box">
-              <ion-icon name="eye-outline"></ion-icon>
-            </div>
-            <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-          </figure>
-          <h3 class="project-title">Updating Soon</h3>
-          <p class="project-category">Web development</p>
-        </a>
-      </li>
+            <button class="filter-select" data-select>
 
-      <!-- Web Design Projects -->
-      <li class="project-item active" data-filter-item data-category="web design">
-        <a href="#">
-          <figure class="project-img">
-            <div class="project-item-icon-box">
-              <ion-icon name="eye-outline"></ion-icon>
-            </div>
-            <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-          </figure>
-          <h3 class="project-title">Updating Soon</h3>
-          <p class="project-category">Web design</p>
-        </a>
-      </li>
+              <div class="select-value" data-selecct-value>Select category</div>
 
-      <li class="project-item active" data-filter-item data-category="web design">
-        <a href="#">
-          <figure class="project-img">
-            <div class="project-item-icon-box">
-              <ion-icon name="eye-outline"></ion-icon>
-            </div>
-            <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-          </figure>
-          <h3 class="project-title">Updating Soon</h3>
-          <p class="project-category">Web design</p>
-        </a>
-      </li>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
 
-      <li class="project-item active" data-filter-item data-category="web design">
-        <a href="#">
-          <figure class="project-img">
-            <div class="project-item-icon-box">
-              <ion-icon name="eye-outline"></ion-icon>
-            </div>
-            <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-          </figure>
-          <h3 class="project-title">Updating Soon</h3>
-          <p class="project-category">Web design</p>
-        </a>
-      </li>
+            </button>
 
-      <!-- Applications Projects -->
-      <li class="project-item active" data-filter-item data-category="applications">
-        <a href="#">
-          <figure class="project-img">
-            <div class="project-item-icon-box">
-              <ion-icon name="eye-outline"></ion-icon>
-            </div>
-            <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-          </figure>
-          <h3 class="project-title">Updating Soon</h3>
-          <p class="project-category">Applications</p>
-        </a>
-      </li>
+            <ul class="select-list">
 
-      <li class="project-item active" data-filter-item data-category="applications">
-        <a href="#">
-          <figure class="project-img">
-            <div class="project-item-icon-box">
-              <ion-icon name="eye-outline"></ion-icon>
-            </div>
-            <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-          </figure>
-          <h3 class="project-title">Updating Soon</h3>
-          <p class="project-category">Applications</p>
-        </a>
-      </li>
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
 
-    </ul>
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
 
-  </section>
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
 
-</article>
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Updating Soon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Updating Soon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Updating Soon</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Updating Soon</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Updating Soon</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Updating Soon</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Updating Soon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Updating Soon</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Updating Soon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
 
 
 
